@@ -23,6 +23,10 @@ nav{
     gap: 20px;
     font-family: Roboto;
 }
+.nav-item:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
 .signin-btn{
     padding: 5px 10px;
     color: white;
@@ -30,6 +34,10 @@ nav{
     background-color: #965CF2;
     border: 0;
     border-radius: 20px;
+}
+.signin-btn:hover{
+    cursor: pointer;
+    transform: scale(1.05);
 }
 .intro-section{
     display: flex;
@@ -62,6 +70,10 @@ nav{
     border: 0;
     padding: 7.5px 15px;
     border-radius: 20px;
+}
+.learn-more-btn:hover{
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 
