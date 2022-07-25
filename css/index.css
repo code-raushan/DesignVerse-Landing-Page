@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../images/backcover.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 600px 600px;
+    
+}
+nav{
+    margin: 30px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+    font-family: Roboto;
+}
+.signin-btn{
+    padding: 5px 10px;
+    color: white;
+    font-family: Roboto;
+    background-color: #965CF2;
+    border: 0;
+    border-radius: 20px;
+}
+.intro-section{
+    display: flex;
+
+}
+.left-section{
+    margin-top: 60px;
+    margin-left: 120px;
+}
+.left-section>h1{
+    font-size: 60px;
+    font-family: Roboto;
+    color: #3E4794;
+    margin-bottom: 40px;
+}
+.left-section>h4{
+    font-size: 12px;
+    font-family: Roboto;
+    
+    color: #cfaff1;
+    width: 250px;
+    height: 170px;
+    line-height: 1.2;
+}
+.learn-more-btn{
+    font-size: 20px;
+    font-family: Roboto;
+    color: white;
+    background-color: #965CF2;
+    border: 0;
+    padding: 7.5px 15px;
+    border-radius: 20px;
+}
+
+
+img[alt = "intro-img"]{
+    position: fixed;
+    top: 70px;
+    right: 50px;
+}
+img[alt = "vector-img"]{
+    position: fixed;
+    bottom: 80px;
+    right: 550px;
+}
+img[alt = "vector-dot"]{
+    position: fixed;
+    bottom: 170px;
+    right: 570px;
+}
+
+
